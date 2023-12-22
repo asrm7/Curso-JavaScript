@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+}
+h1 {
+  font-family: "Black Han Sans", sans-serif;
+}
+.post-container {
+  width: 70%;
+  height: 100%;
+  margin: 0px auto 0px auto;
+  background-color: #fffafa;
+}
+.post-container .date {
+  font-family: "Smokum", sans-serif;
+  color: #5804cd;
+}
+.post-container div.post-content {
+  width: 90%;
+  font-family: "Lobster", sans-serif;
+  font-weight: normal;
+}
+.post-container .post {
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
