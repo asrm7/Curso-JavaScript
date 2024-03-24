@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(./fonts/PermanentMarker.ttf) format("truetype"),
+    url(./fonts/PermanentMarker.woff) format("woff");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: "Inter", sans-serif;
+  background: #eeeeee;
+}
+
+.header {
+  height: 100vh;
+  
+  background-color: #eee;
+  background-image: url(./images/FB_IMG_1564844898345.jpg);
+  background-size:  100%;
+  background-position: center;
+  text-align: center;
+}
+
+.header-title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 140px;
+  color: rgb(249, 249, 250);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: auto;
+  max-width: 1240px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size:0;
+  max-width : 790px;
+  margin: 100px auto 50px;
+}
+
+.card{
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px 45px;
+  display : inline-block; 
+  margin-right : 90px;
+  border: 1px solid rgb(10, 10, 10);
+  box-shadow: 10px 5px 5px black;
+}
+
+.card-title{
+  font-family: "Permanent Marker", cursive;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;  
+}
+
+.card-text{
+  font-size: 16px;
+}
+
+
+.card-image{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 25px;
+}
+
+.no-right-margin {
+  margin-right: 0;
+}
+.footer {
+  display: flex;
+  min-height : 300px;
+  background-color : #000;
+}
+
+.footer-author{
+  font-size: 24px; 
+  color: #fff;
+ margin : auto;
+ 
+}
